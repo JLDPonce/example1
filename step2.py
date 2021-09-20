@@ -33,3 +33,10 @@ def myLocation(self):
 loc1 = Location("Tomas", "Portugal")
 # Call a method from the instantiated class
 loc1.myLocation()
+loc2 = Location("Ying", "China")
+loc3 = Location("Amare", "Kenya")
+loc2.myLocation()
+loc3.myLocation()
+your_loc = Location("Your_Name", "Your_Country")
+your_loc.myLocation()
+

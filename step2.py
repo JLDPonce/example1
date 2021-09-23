@@ -354,3 +354,9 @@ defop = editconf.find("{}default-operation".format(ns))
 testop = editconf.find("{}test-option".format(ns))
 print("The default-operation contains: {}".format(defop.text))
 print("The test-option contains: {}".format(testop.text))
+
+import json
+import yaml
+with open('myfile.json','r') as json_file:
+    ourjson = json.load(json_file)
+print(ourjson)
